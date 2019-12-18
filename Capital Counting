@@ -1,0 +1,5 @@
+while True:
+    try:
+        print(len(list(filter(lambda x: x.isupper(),input()))))
+    except:
+        break
